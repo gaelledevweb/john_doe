@@ -1,5 +1,4 @@
 import './App.css';
-import NavBar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import Home from "../src/pages/Home";
 import Contact from "../src/pages/Contact";
@@ -7,12 +6,11 @@ import Portfolio from "../src/pages/Portfolio";
 import Services from "../src/pages/Services";
 import MentionsLegales from "../src/pages/MentionsLegales";
 
+
+
 function App() {
   return (
     <div className="App">
-      <NavBar />
-
-
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/contact' element={<Contact />}></Route>

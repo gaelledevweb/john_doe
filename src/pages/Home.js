@@ -1,8 +1,17 @@
+import NavBar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Home = () => {
     return (
+
         <div>
-            <h1>Accueil</h1>
+            <header>
+                <NavBar />
+            </header>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <footer>
+                <Footer />
+            </footer>
         </div>
     )
 }

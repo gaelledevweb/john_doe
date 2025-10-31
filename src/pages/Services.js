@@ -1,8 +1,16 @@
+import NavBar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Services = () => {
     return (
         <div>
-            <h1>Services</h1>
+            <header>
+                <NavBar />
+            </header>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <footer>
+                <Footer />
+            </footer>
         </div>
     )
 }
