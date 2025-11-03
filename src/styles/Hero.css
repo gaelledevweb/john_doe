@@ -1,0 +1,30 @@
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    align-content: center;
+    color: #fff;
+    text-align: center;
+    min-height: 500px;
+    padding: 20px;
+    margin: 0;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 5.5rem;
+}
+
+.hero h2 {
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 200px;
+    }
+}
