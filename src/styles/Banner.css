@@ -1,0 +1,7 @@
+.banner-container {
+    display: flex;
+}
+
+.banner-image {
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.cards-container-first,
+.cards-container-second {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    display: flex;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    width: 25rem;
+}
+
+.card:hover {
+    background-color: #efefef;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: large;
+}
+
+.card-content {
+    text-transform: none;
+    font-weight: 600;
+}
+
+.card-btn:hover {
+    background-color: #72a8fa ;
+}
