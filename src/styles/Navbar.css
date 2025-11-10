@@ -76,6 +76,12 @@
         font-weight: 600;
         width: 100%;
         display: table;
+        transition: all 0.2s ease-out;
+    }
+
+    .nav-links:hover {
+        text-decoration: underline;
+        font-weight: bolder;
     }
 
     .menu-icon {
@@ -85,5 +91,6 @@
         right: 0;
         transform: -100%, 60%;
         font-size: 1.8rem;
+        margin-right: 10px;
     }
 }

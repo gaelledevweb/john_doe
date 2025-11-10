@@ -43,28 +43,28 @@ const Footer = () => {
                     <h2>Mes dernières réalisations</h2>
                     <ul>
                         <li>
-                            <Link className="footer-links" to="/freshfood">Fresh Food</Link>
+                            <Link className="footer-links" to="/portfolio">Fresh Food</Link>
                         </li>
                         <li>
-                            <Link className="footer-links" to="/restaurant-akira">Restaurant Akira</Link>
+                            <Link className="footer-links" to="/portfolio">Restaurant Akira</Link>
                         </li>
                         <li>
-                            <Link className="footer-links" to="/espace-bien-etre">Espace bien-être</Link>
+                            <Link className="footer-links" to="/portfolio">Espace bien-être</Link>
                         </li>
                         <li>
-                            <Link className="footer-links" to="/seo">SEO</Link>
+                            <Link className="footer-links" to="/portfolio">SEO</Link>
                         </li>
                         <li>
-                            <Link className="footer-links" to="/creation-d-un-api">Création d'une API</Link>
+                            <Link className="footer-links" to="/portfolio">Création d'une API</Link>
                         </li>
                         <li>
-                            <Link className="footer-links" to="/maquette-d-un-site">Maquette d'un site</Link>
+                            <Link className="footer-links" to="/portfolio">Maquette d'un site</Link>
                         </li>
                     </ul>
                 </div>
             </div>
         </footer>
-    )
+    );
 }
 
 export default Footer;
