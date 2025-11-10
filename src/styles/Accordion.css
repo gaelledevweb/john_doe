@@ -1,0 +1,17 @@
+.main-mentionslegales {
+    display: flex;
+    justify-content: center;
+    margin: 50px 5px 70px 5px;
+}
+
+.accordion-content {
+    width: 60%;
+}
+
+.p-accordion {
+    text-transform: none;
+}
+
+h2 {
+    font-weight: bold;
+}
